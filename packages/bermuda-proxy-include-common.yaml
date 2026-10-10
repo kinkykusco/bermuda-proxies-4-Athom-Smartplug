@@ -73,9 +73,3 @@ sensor:
     entity_category: diagnostic
     internal: true
 
-  - platform: wifi_signal
-    name: "WiFi Signal dB"
-    id: wifi_signal_db
-    update_interval: 60s
-    entity_category: "diagnostic"
-
